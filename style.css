@@ -1,0 +1,81 @@
+/* universal style */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* body style */
+body {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* container box style */
+
+.container {
+  margin-top: 150px;
+  height: 400px;
+  width: 300px;
+  background: #232526;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 4px 3px 2px #232526;
+}
+
+/* input box style */
+
+input {
+  height: 50px;
+  width: 260px;
+  background-color: ghostwhite;
+  color: black;
+  margin-top: 45px;
+  text-align: right;
+  position: relative;
+  left: 20px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+}
+
+/* input text alignment */ 
+
+input[type=text]
+{
+  padding-right: 5px;
+}
+
+/* all button style */
+
+button {
+ flex: 0 0 20%;
+ margin: 5px 4px;
+ width: 60px;
+ height: 42px;
+  padding: 5px;
+  font-weight: 700;
+  color: white;
+  background-color: #1A2980;
+  box-shadow: 4px 5px 3px #232526;
+  left: 10px;
+  position: relative;
+  top: 25px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+}
+
+/* calculator first row style */
+
+.line1 {
+  background-color: orange;
+  color: black;
+}
+
+/* calculate button color */
+
+.btn-red {
+  background-color: red;
+  color: white;
+}
